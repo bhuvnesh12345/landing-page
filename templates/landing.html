@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Love Alert</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ranchers&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static' , filename='CSS/style.css')}}">
+	<style type="text/css">
+		.j{
+			color: white;
+			font-size: 3vw;
+		}
+		.pink{
+			background: pink;
+			border: 1px solid purple;
+			width: 25%;
+		}
+	</style>
+	
+</head>
+<body>
+	<!--<h1 class="badge badge-danger ab">LOVE</h1>-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a  style="color: white; font-size: 3vw;" class="navbar-brand badge badge-danger" href="#">LOVE</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+     <button  style="margin-right:10px;" class="btn btn-outline-success my-2 my-sm-0" type="submit">login</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Signup</button>
+    </form>
+  </div>
+</nav>
+
+<div class="flex">
+	<div class="a">
+	<img src="{{url_for('static', filename='image/ted.jpg')}}">
+    </div>
+   <div class="b">
+   	<h1 class=" h">LOVE ALERTS</h1>
+   	<h2 style="color: orange;">At Love Alert, we are on a mission of spreading love, positivity and good vibes all over the world 🌍 via notifications.</h2>
+   	<h2>"Life without love is like a tree without blossoms or fruit. The best thing to hold onto in life is each other."</h2>
+   	
+   </div> 
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

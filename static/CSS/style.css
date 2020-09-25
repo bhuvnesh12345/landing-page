@@ -1,0 +1,151 @@
+
+     
+
+
+		img{
+			
+			width: 100%;
+			height: 100%;
+		}
+		.a{
+           width: 600px;
+           height:600px;
+           float: left;
+		}
+		.b{
+			float: right;
+			width: 400px;
+			height: 600px;
+			margin-top: 80px;
+		}
+		.flex{
+			height: 600px;
+			
+		}
+		@media only screen and (max-width:900px)
+		{
+			.a{
+				width: 400px;
+				height: 400px;
+				
+			}
+			.b{
+				width: 400px;
+				height:400px;
+
+			}
+			.flex{
+				height: 400px;
+			}
+
+		}
+		@media only screen and (max-width:820px){
+			.b{
+				width: 300px;
+
+			}
+		}
+	 @media only screen and (max-width:720px){
+	 	.a{
+
+           width: 380px;
+	 	}
+	 	.b{
+	 		width: 250px;
+	 	}
+	 }
+	 .h{
+	 	font-family: 'Ranchers', cursive;
+	 	font-size: 5vw;
+	 	text-align: center;
+	 	color: orange;
+	 	text-shadow: 4px 4px 4px #aaa;
+	 }
+	 @media only screen and (max-width:650px){
+	 	.a{
+	 		width: 380px
+	 	}
+	 	.b{
+	 		width:200px; 
+	 	}
+	 }
+	 @media only screen and (max-width:599px){
+	 	.a{
+	 		width: 300px;
+	 		
+	 	}
+	 	.b{
+	 		width: 200px;
+	 		
+	 	}
+	 }
+	 @media only screen and (max-width:517px){
+	 	.b{
+	 		width: 150px;
+	 	}
+	 }
+	 @media only screen and (max-width:467px){
+	 	.a{
+	 		width: 300px;
+	 	}
+	 	.b{
+	 		width: 100px;
+	 	}
+	 }
+	 @media only screen and (max-width:417px){
+	 	.a{
+	 		width: 250px;
+	 	}
+	 	.b{
+          width:100px;
+	 	}
+	 }
+	 @media only screen and (max-width:370px){
+	 	.a{
+	 		width: 200px;
+	 	}
+	 	.b{
+	 		width: 100px;
+	 	}
+	 }
+	@media only screen and (max-width:320px){
+		.a{
+			width: 150px;
+		}
+		.b{
+			width: 100px;
+
+		}
+	}
+     @media only screen and (max-width:267px){
+     	.a{
+            width: 100px;
+     	}
+     	.b{
+            width: 100px;
+     	}
+     }
+     @media only screen and (max-width:217px){
+     	.a{
+            width: 80px;
+     	}
+     	.b{
+             width: 80px;
+             height: 400px;
+     	}
+     }
+     @media only screen and (max-width:178px){
+     	.a{
+               width: 50px;
+     	     	}
+     	.b{
+             width: 50px;
+     	}
+     }
+
+	h2{
+		font-size: 3vw;
+		font-family: 'Pacifico', cursive;
+		color: red;
+	}
+	
